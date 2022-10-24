@@ -11,7 +11,7 @@ import {
 } from '@react-three/drei'
 
 const rfs = THREE.MathUtils.randFloatSpread
-const sphereGeometry = new THREE.SphereGeometry(1, 48, 48)
+const sphereGeometry = new THREE.SphereGeometry(1, 3, 8)
 const baubleMaterial = new THREE.MeshLambertMaterial({
   color: '#474747',
   emissive: 'black',
@@ -27,8 +27,8 @@ const ObjectClump = ({}) => {
         near={0.1}
         far={100}
       />
-      <color attach='background' args={['#050505']} />
-      <fog attach='fog' args={[0x050505, 0, 28]} />
+      <color attach='background' args={['#f5f5f5']} />
+      <fog attach='fog' args={[0xf5f5f5, 0, 28]} />
       <Lights />
       <Sparkles
         count={30}
@@ -44,7 +44,7 @@ const ObjectClump = ({}) => {
           </Html>
         }
       >
-        <Title>{'hyamero@daleban.tech'}</Title>
+        <Title>{'gabrysw@gmail.com'}</Title>
         <Physics gravity={[0, 5, 0]} iterations={10}>
           <Pointer />
           <Balls />
@@ -119,7 +119,7 @@ const Lights = () => {
         castShadow
         shadow-mapSize={[512, 512]}
       />
-      <directionalLight position={[0, -15, -0]} intensity={1} color='#f1f1f1' />
+      <directionalLight position={[0, -15, -0]} intensity={10} color='#623cea' />
     </>
   )
 }
@@ -137,12 +137,12 @@ const Title = ({ children }) => {
       material-toneMapped={false}
       anchorX='center'
       anchorY='middle'
-      onClick={() => (window.location.href = 'mailto:hyamero@daleban.tech')}
+      onClick={() => (window.location.href = 'mailto:gabrysw@gmail.com')}
       onPointerEnter={() => (document.body.style.cursor = 'pointer')}
       onPointerLeave={() => (document.body.style.cursor = 'auto')}
     >
       {children}
-      <meshBasicMaterial color='#c4c4c4' />
+      <meshBasicMaterial color='#050505' />
     </Text>
   )
 }

@@ -13,7 +13,7 @@ export const Navbar: React.FC = ({}) => {
       path: '/',
     },
     {
-      text: 'PROJECTS',
+      text: 'PORTFOLIO',
       path: '/projects',
     },
     {
@@ -28,12 +28,12 @@ export const Navbar: React.FC = ({}) => {
         className='text-xl cursor-pointer font-fog mix-blend-difference'
         onClick={() => router.push('/')}
       >
-        Dale B.
+        Gabryś
       </span>
       <ul className='flex text-sm font-light tracking-wider space-x-4  md:space-x-10 font-ubuntu [&>*]:cursor-pointer [&>*]:leading-none [&>*:hover]:text-white [&>*]:transition-all'>
         {navItems.map((item) => {
           const { text, path } = item
-
+ 
           return (
             <li
               key={text}

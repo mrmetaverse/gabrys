@@ -20,7 +20,7 @@ const Page = (props) => {
   const [unmount, setUnmount] = useState<boolean>(false)
 
   return (
-    <>{!unmount && <CustomLoader setUnmount={setUnmount} text='Projects' />}</>
+    <>{!unmount && <CustomLoader setUnmount={setUnmount} text='Portfolio' />}</>
   )
 }
 
@@ -36,7 +36,7 @@ export default Page
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Dale Bañares | Projects',
+      title: 'Gabryś Wronka | Portfolio',
     },
   }
 }

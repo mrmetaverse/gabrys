@@ -17,28 +17,28 @@ const ProjectsShader: React.FC = () => {
 
   const images = [
     {
-      title: 'Uno',
+      title: 'Jeden',
       position: [-0.1, -1 + posY, -0.09],
       src: '/img/projects/iphone.jpg',
       url: 'https://iphone-config.vercel.app/',
     },
 
     {
-      title: 'Dos',
+      title: 'Dwa',
       position: [0.1, -2 + posY, -0.09],
       src: '/img/projects/laptop.jpg',
       url: 'https://collective-api.vercel.app/',
     },
 
     {
-      title: 'Tres',
+      title: 'Trzy',
       position: [-0.1, -3 + posY, -0.09],
       src: '/img/projects/hello.jpg',
       url: 'https://chatti.vercel.app/direct/public',
     },
 
     {
-      title: 'Cuatro',
+      title: 'Cztery',
       position: [0.1, -4 + posY, -0.09],
       src: '/img/projects/head.jpg',
       url: 'https://github.com/hyamero',
@@ -144,7 +144,7 @@ const ProjectsShader: React.FC = () => {
               anchorX='center'
               anchorY='middle'
             >
-              Projects
+              Portfolio
             </Text>
           </Suspense>
         </Scroll>
