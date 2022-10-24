@@ -1,11 +1,8 @@
 # Gabryś Wronka
 
-[![hackmd-github-sync-badge](https://hackmd.io/A6S7iFMZT2ycb-GccaoFIw/badge)](https://hackmd.io/A6S7iFMZT2ycb-GccaoFIw)
-
-
 ### Actor - Model | Los Angeles, CA
 
-[Return to main site]()
+[Return to my website]()
 
 ## Headshots 
 
