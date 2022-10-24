@@ -17,17 +17,17 @@ const ProjectsShader: React.FC = () => {
 
   const images = [
     {
-      title: 'Jeden',
+      title: 'Photos',
       position: [-0.1, -1 + posY, -0.09],
       src: '/img/projects/iphone.jpg',
-      url: 'https://iphone-config.vercel.app/',
+      url: 'https://hackmd.io/@mrmetaverse/gabrys_photos',
     },
 
     {
-      title: 'Dwa',
+      title: 'Reel',
       position: [0.1, -2 + posY, -0.09],
       src: '/img/projects/laptop.jpg',
-      url: 'https://collective-api.vercel.app/',
+      url: 'https://gabrys3.wixsite.com/gabrys/reel',
     },
 
     {
@@ -37,12 +37,12 @@ const ProjectsShader: React.FC = () => {
       url: 'https://chatti.vercel.app/direct/public',
     },
 
-    {
-      title: 'Cztery',
-      position: [0.1, -4 + posY, -0.09],
-      src: '/img/projects/head.jpg',
-      url: 'https://github.com/hyamero',
-    },
+    // {
+    //   title: 'Cztery',
+    //   position: [0.1, -4 + posY, -0.09],
+    //   src: '/img/projects/head.jpg',
+    //   url: 'https://github.com/mrmetaverse/gabrys',
+    // },
   ]
 
   const { width } = useThree((state) => state.viewport)
