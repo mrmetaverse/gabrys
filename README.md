@@ -1,4 +1,6 @@
-# Gabrys Portfolio
+# Gabrys Portfolio README
+
+[![hackmd-github-sync-badge](https://hackmd.io/Bv0jc5lTRWudsKwwGj1Hww/badge)](https://hackmd.io/Bv0jc5lTRWudsKwwGj1Hww)
 
 Special thanks to Dale Bañares for making this project open source. Check out ["3D Portfolio [R3F]"](https://github.com/hyamero/portfolio-3d). Thank you to Jesse A. (@mrmetaverse) for helping get this set up.
 
