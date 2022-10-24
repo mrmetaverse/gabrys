@@ -19,30 +19,30 @@ const ProjectsShader: React.FC = () => {
     {
       title: 'Photos',
       position: [-0.1, -1 + posY, -0.09],
-      src: '/img/projects/iphone.jpg',
+      src: '/img/projects/head.jpg',
       url: 'https://hackmd.io/@mrmetaverse/gabrys_photos',
     },
 
     {
       title: 'Reel',
       position: [0.1, -2 + posY, -0.09],
-      src: '/img/projects/laptop.jpg',
+      src: '/img/projects/reel.jpg',
       url: 'https://gabrys3.wixsite.com/gabrys/reel',
     },
 
     {
-      title: 'Trzy',
+      title: 'Gabryshia',
       position: [-0.1, -3 + posY, -0.09],
-      src: '/img/projects/hello.jpg',
-      url: 'https://chatti.vercel.app/direct/public',
+      src: '/img/projects/gabrysh!a.jpg',
+      url: 'https://www.instagram.com/gabryshia/',
     },
 
-    // {
-    //   title: 'Cztery',
-    //   position: [0.1, -4 + posY, -0.09],
-    //   src: '/img/projects/head.jpg',
-    //   url: 'https://github.com/mrmetaverse/gabrys',
-    // },
+    {
+      title: 'Resume',
+      position: [0.1, -4 + posY, -0.09],
+      src: '/img/projects/postup.jpg',
+      url: 'https://hackmd.io/@mrmetaverse/gabrys_resume',
+    },
   ]
 
   const { width } = useThree((state) => state.viewport)

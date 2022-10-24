@@ -51,7 +51,7 @@ const Shader: React.FC<ShaderProps> = ({
   useFrame((state) => {
     const time = state.clock.getElapsedTime()
     if (meshRef.current.material) {
-      meshRef.current.material.uniforms.uTime.value = time * 0.4
+      meshRef.current.material.uniforms.uTime.value = time * 0.23
     }
   })
 
