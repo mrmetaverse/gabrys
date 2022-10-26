@@ -1,10 +1,10 @@
 import Head from 'next/head'
 
-const titleDefault = 'Joseph Dale Bañares'
-const url = 'https://daleban3d.vercel.app/'
+const titleDefault = 'Gabryś Wronka'
+const url = 'https://gabrys.vercel.app/'
 const description =
-  'Joseph Dale Bañares is a Creative Developer based in the Philippines. He is an autodidact with a passion for building beautiful and interactive websites.'
-const author = 'Joseph Dale Bañares'
+  'Gabryś Wronka is a Actor and Model based in the Los Angeles, CA. He is a multi-talented artist with a passion for performance and drag.'
+const author = 'Jesse'
 
 const Header = ({ title = titleDefault }) => {
   return (
@@ -34,7 +34,7 @@ const Header = ({ title = titleDefault }) => {
         <meta name='og:type' content='site' />
         <meta name='og:url' content={url} />
         <meta name='og:image' content={'/icons/thumbnail.jpg'} />
-        <meta name='og:site_name' content='3D Portfolio' />
+        <meta name='og:site_name' content='Gabryś Wronka' />
         <meta name='og:description' content={description} />
 
         <link rel='apple-touch-icon' href='/icons/apple-touch-icon.png' />
@@ -76,7 +76,7 @@ const Header = ({ title = titleDefault }) => {
         documentation: https://dev.twitter.com/cards/getting-started
         Be sure validate your Twitter card markup on the documentation site. */}
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:site' content='@hyamero' />
+        <meta name='twitter:site' content='@GabrysWronka' />
       </Head>
     </>
   )
